@@ -33,5 +33,5 @@ jobs:
         with:
           context: ./Backend
           push: true
-          tags: sqalithya/backend:latest11
+          tags: sqalithya/testbackend:latest
 
