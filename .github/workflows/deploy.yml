@@ -20,6 +20,9 @@ jobs:
           username: ${{secrets.DOCKERHUB_USERNAME}}
           password: ${{secrets.DOCKERHUB_TOKEN}}
       -
+        name: "List Folder Contents"
+        run: "ls -d */"
+      -
         name: Build and push
         uses: docker/build-push-action@v5
         with:
